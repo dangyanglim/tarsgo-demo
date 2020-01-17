@@ -1,7 +1,9 @@
 **TarsGo使用指南**
 
-[1.TarsGo官方文档](https://github.com/TarsCloud/TarsGo)
+fork 了https://github.com/qianggithub/TarsGo-demo  
 
-[2.TarsGo使用指南之服务端](https://www.jianshu.com/p/1ac4c236c442)
+改成了go module的方式，学习tarsgo到这里，貌似tars主体不是go  
 
-[3.TarsGo使用指南之客户端](https://www.jianshu.com/p/00b18d30c499)
+server启动 ```go run main.go SayHelloImp.go HelloImp.go --config=config.conf```
+
+client启动 ```go run SayHelloClient.go```

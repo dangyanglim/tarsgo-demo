@@ -1,7 +1,7 @@
 package main
 
 import (
-	"TestApp"
+	"tarsgo-server/TestApp"
 	"github.com/TarsCloud/TarsGo/tars"
 )
 
